@@ -25,6 +25,6 @@ Post URL:[ (https://www.linkedin.com/posts/jayanth-reddy-034429330_excited-to-be
 ## 📬 Connect With Me
 - 💼 [LinkedIn][www.linkedin.com/in/jayanth-reddy-034429330]
 - 🐙 [GitHub][(https://github.com/JayanthReddy3010)]
-- 📧 Email: gjashwanthreddy18@gmail.com
+- 📧 Email: gjayanthreddy69@gmail.com
 
 ---
