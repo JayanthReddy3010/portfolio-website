@@ -23,7 +23,7 @@ Post URL:[LinkedIn Post](https://www.linkedin.com/posts/jayanth-reddy-034429330_
 ---
 ## 📬 Connect With Me
 - 💼 [LinkedIn](www.linkedin.com/in/jayanth-reddy-034429330)
-- 🐙 [GitHub][(https://github.com/JayanthReddy3010)
+- 🐙 [GitHub](https://github.com/JayanthReddy3010)
 - 📧 Email: gjayanthreddy69@gmail.com
 
 ---
