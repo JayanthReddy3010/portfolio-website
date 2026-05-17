@@ -159,7 +159,7 @@ window.addEventListener("DOMContentLoaded", () => {
         contactForm.addEventListener("submit", function(e){
 
             e.preventDefault();
-
+            console.log("Form Submitted");
             emailjs.sendForm(
                 "service_qv9ud1d",
                 "template_9xd0mug",
