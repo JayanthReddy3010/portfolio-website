@@ -143,3 +143,39 @@ window.addEventListener("load", () => {
     loader.style.display = "none";
 
 });
+
+
+
+// EMAIL JS
+
+emailjs.init("P9jfBoxqw-5ItrLFH");
+
+const contactForm = document.getElementById("contact-form");
+
+contactForm.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    emailjs.sendForm(
+        "service_qv9ud1d",
+        "template_9xd0mug",
+        this
+    )
+
+    .then(() => {
+
+        alert("Message Sent Successfully!");
+
+        contactForm.reset();
+
+    })
+
+    .catch((error) => {
+
+        alert("Failed to send message");
+
+        console.log(error);
+
+    });
+
+});
