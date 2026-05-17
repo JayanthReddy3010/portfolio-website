@@ -148,34 +148,42 @@ window.addEventListener("load", () => {
 
 // EMAIL JS
 
-emailjs.init("P9jfBoxqw-5ItrLFH");
+window.addEventListener("DOMContentLoaded", () => {
 
-const contactForm = document.getElementById("contact-form");
+    emailjs.init("P9jfBoxqw-5ItrLFH");
 
-contactForm.addEventListener("submit", function(e){
+    const contactForm = document.getElementById("contact-form");
 
-    e.preventDefault();
+    if(contactForm){
 
-    emailjs.sendForm(
-        "service_qv9ud1d",
-        "template_9xd0mug",
-        this
-    )
+        contactForm.addEventListener("submit", function(e){
 
-    .then(() => {
+            e.preventDefault();
 
-        alert("Message Sent Successfully!");
+            emailjs.sendForm(
+                "service_qv9ud1d",
+                "template_9xd0mug",
+                this
+            )
 
-        contactForm.reset();
+            .then(() => {
 
-    })
+                alert("Message Sent Successfully!");
 
-    .catch((error) => {
+                contactForm.reset();
 
-        alert("Failed to send message");
+            })
 
-        console.log(error);
+            .catch((error) => {
 
-    });
+                alert("Failed to send message");
+
+                console.log(error);
+
+            });
+
+        });
+
+    }
 
 });
